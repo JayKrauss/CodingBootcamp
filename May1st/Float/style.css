@@ -1,0 +1,30 @@
+.leftcontainer {
+    float: left;
+    background-color: aquamarine;
+    height: 300px;
+    width: 40%;
+
+}
+
+.rightcontainer {
+    float: right;
+    background-color: crimson;
+    height: 300px;
+    width: 40%;
+
+}
+
+.bottomcontainer {
+    clear: both;
+    float: left;
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 100%;
+
+}
+
+body {
+    width: 960px;
+    margin: auto;
+
+}
