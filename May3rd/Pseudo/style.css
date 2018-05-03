@@ -1,0 +1,14 @@
+button {
+    color: darkred;
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+}
+
+button:hover {
+    color: darkblue;
+}
+
+button:active {
+    color: darkgreen;
+}
