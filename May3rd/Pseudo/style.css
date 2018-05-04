@@ -12,3 +12,7 @@ button:hover {
 button:active {
     color: darkgreen;
 }
+
+button:visited {
+    color: black;
+}
