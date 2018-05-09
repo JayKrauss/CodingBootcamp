@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+     If Demo
+    </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+        var confirmSushi = confirm('Do you like sushi?');
+        var confirmGingerTea = confirm('Do you like ginger tea?');
+        var sushiType = prompt('What kind of sushi do you like?');
+
+             
+        if (confirmSushi == true) {
+            alert('You like ' + sushiType + '!');
+        }
+        else {
+            document.write('You dont like sushi or ginger tea!');
+        }
+
+        if (sushiType == 'California Roll') {
+            alert('You like American sushi!');
+        }
+        
+    </script>
+  </body>
+</html>
