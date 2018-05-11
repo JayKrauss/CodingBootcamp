@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Looping One</title>
+  </head>
+  <body>
+
+    <h1>Check the Console, Dummy</h1>
+
+    <script>
+
+    var zooAnimals = ['Zebra', 'Rhino', 'Giraffe', 'Owl'];
+    zooAnimals[4] = ['this', 'is', 'a', 'mess'];
+
+    for (var i = 0; i < zooAnimals.length; i++) {
+       console.log('Today we saw a ' + zooAnimals[i]);
+      }
+
+    function logArray(list) {
+      for (var j = 0; j < list.length; j++) {
+        console.log(list[j]);
+       }
+    } 
+
+    logArray(zooAnimals);
+
+
+    </script>
+
+  </body>
+</html>
